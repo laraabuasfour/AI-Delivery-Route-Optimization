@@ -1,0 +1,7 @@
+import tkinter as tk
+from  tkinter1 import DeliveryOptimizerApp
+
+if __name__ == '__main__':
+    root = tk.Tk()
+    app = DeliveryOptimizerApp(root) 
+    root.mainloop()          
